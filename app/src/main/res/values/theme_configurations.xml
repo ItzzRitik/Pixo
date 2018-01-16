@@ -1,10 +1,10 @@
 <resources>
     <!-- Theme name and author name -->
-    <string name="ThemeName">Substratum Theme Template</string>
-    <string name="ThemeAuthor">[projekt.] development team</string>
+    <string name="ThemeName">Pixo</string>
+    <string name="ThemeAuthor">Ritik Srivastava</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="ThemeAuthorEmail"></string>
+    <string name="ThemeAuthorEmail">ritik.space@gmail.com</string>
     <!-- Do you support Stock and Theme Ready Gapps? -> all -->
     <!-- Do you support Theme Ready but not Stock Gapps? -> ready -->
     <!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
@@ -26,10 +26,5 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Change One</item>
-        <item>Change Two</item>
-        <item>Change Three</item>
-        <item>Change Four</item>
-        <item>Change Five</item>
     </string-array>
 </resources>
