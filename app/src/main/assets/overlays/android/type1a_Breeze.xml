@@ -2,4 +2,5 @@
 <resources>
     <color name="holo_blue_light">#359DD9</color>
     <color name="holo_blue_dark">#359DD9</color>
+    <color name="holo_blue_bright">#359DD9</color>
 </resources>
