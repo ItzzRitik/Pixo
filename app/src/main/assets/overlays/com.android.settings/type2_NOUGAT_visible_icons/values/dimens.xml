@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_category_height">48.0dip</dimen>
+    <dimen name="dashboard_tile_image_size">24dip</dimen>
+    <dimen name="dashboard_tile_image_margin_start">16dip</dimen>
+    <dimen name="dashboard_tile_image_margin_end">32dip</dimen>
+    <dimen name="dashboard_tile_image_margin">24dip</dimen>
+    <dimen name="dashboard_tile_minimum_height">72.0dip</dimen>
+</resources>

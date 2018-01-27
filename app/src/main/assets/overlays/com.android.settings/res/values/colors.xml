@@ -1,117 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="switchbar_background_color">@android:color/holo_blue_light</color>
-    <color name="suggestion_condition_background">@android:color/background_dark</color>
-    <color name="suw_glif_background_color_light">@android:color/background_dark</color>
-    <color name="switch_accent_color">@android:color/white</color>
-    <color name="card_background">@android:color/transparent</color>
-    <color name="lock_pattern_view_regular_color">#ffe0e0e0</color>
-    <color name="running_processes_system_ram">#fff44336</color>
-    <color name="running_processes_apps_ram">#ff3f51b5</color>
-    <color name="memory_apps_usage">#ffcddc39</color>
-    <color name="memory_downloads">#ff3f51b5</color>
-    <color name="memory_dcim">#ff9c27b0</color>
-    <color name="memory_music">#ff795548</color>
-    <color name="memory_cache">#ff009688</color>
-    <color name="memory_misc">#ffff9800</color>
-    <color name="memory_user_light">#ff00796b</color>
-    <color name="memory_user_dark">#ff004d40</color>
-    <color name="theme_primary">@android:color/holo_blue_light</color>
-    <color name="theme_primary_dark">@android:color/holo_blue_dark</color>
-    <color name="theme_accent">@android:color/holo_blue_bright</color>
-    <color name="dslv_icon_dark">@android:color/holo_blue_bright</color>
-    <color name="exposed_expanded_item">@android:color/holo_blue_bright</color>
-    <color name="ic_settings_icons_exposed">@android:color/holo_blue_bright</color>
-    <color name="qs_tile_tint_color">@android:color/holo_blue_bright</color>
-    <color name="exposed_barPrimaryColor">@android:color/holo_blue_bright</color>
-    <color name="exposed_datachartfillcolor">@android:color/holo_blue_bright</color>
-    <color name="dashboard_background_color">#00000000</color>
-    <color name="cardview_light_background">@android:color/holo_purple</color>
-    <color name="exposed_bg_light">@android:color/background_dark</color>
-    <color name="cardview_dark_background">@android:color/background_dark</color>
-    <color name="exposed_bg_dark">@android:color/background_dark</color>
-    <color name="dslv_float_cackground_color">@android:color/holo_purple</color>
-    <color name="dslv_float_background_color">@android:color/holo_purple</color>
-    <color name="exposed_primary_text_light">#ffffffff</color>
-    <color name="exposed_secondary_text_light">#fffafafa</color>
-    <color name="exposed_qs_tile_text">#ffffffff</color>
-    <color name="exposed_data_limit_chart_labelcolor">#fffafafa</color>
-    <color name="exposed_primary_text_dark">#ffffffff</color>
-    <color name="exposed_secondary_text_dark">#fffafafa</color>
-    <color name="exposed_data_warning_chart_labelcolor">#fff4511e</color>
-    <color name="exposed_barPredictionColor">#ffeeeeee</color>
-    <color name="setup_wizard_navbar_bg_dark">@android:color/background_dark</color>
-    <color name="setup_wizard_navbar_bg_light">@android:color/background_dark</color>
-    <color name="setup_wizard_navbar_text_dark">#deffffff</color>
-    <color name="setup_wizard_navbar_text_light">#deffffff</color>
-    <color name="title_color">#ffffffff</color>
-    <color name="setup_divider_color_light">#33ffffff</color>
-    <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
-    <color name="setup_wizard_wifi_color_light">#89ffffff</color>
+    <color name="primary_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_material_dark</color>
+
+    <color name="material_blue_500">@*android:color/accent_material_light</color>
+    <color name="material_blue_700">@*android:color/accent_material_light</color>
+
+    <color name="accent_material_light">@*android:color/accent_material_light</color>
+    <color name="accent_material_dark">@*android:color/accent_material_light</color>
+    <color name="theme_accent">@*android:color/accent_material_light</color>
+    <color name="switchbar_background_color">@*android:color/primary_material_dark</color>
+    <color name="switch_accent_color">@*android:color/accent_material_light</color>
+    <color name="memory_apps_usage">@*android:color/accent_material_light</color>
+    <color name="running_processes_apps_ram">#ff464646</color>
+    <color name="running_processes_free_ram">@*android:color/background_dark</color>
+    <color name="running_processes_system_ram">#ff6b6b6b</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="text_color_black">@*android:color/primary_dark_material_dark</color>
+    <color name="preference_background_color">@android:color/white</color>
+    <color name="theme_primary">@*android:color/primary_material_dark</color>
+    <color name="theme_primary_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="material_dark_grey">@*android:color/primary_material_dark</color>
+    <color name="settings_title_text">@*android:color/primary_dark_material_dark</color>
+    <color name="extrainfo_separator">@android:color/transparent</color>
+    <color name="extrainfo_cat_background">@*android:color/primary_material_dark</color>
+    <color name="extrainfo_cat_text">@android:color/white</color>
+    <color name="extrainfo_value_text">#ff212121</color>
+    <color name="cardview_light_background">@*android:color/background_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_dark</color>
+    <color name="background_tab_pressed">@*android:color/primary_material_dark</color>
 
 
-    <!-- colors.xml -->
+    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="ripple_material_light">#4dffffff</color>
+    <color name="dashboard_category_title_bg_color">@*android:color/transparent</color>
 
-    <color name="black">#000</color>
-    <color name="red">#F00</color>
-    <color name="blue">#00F</color>
 
-    <color name="material_empty_color_light">#E0E0E0</color>
+    <color name="divider_color">@*android:color/transparent</color>
+    <color name="lock_pattern_view_regular_color">#ff343434</color>
+    <color name="data_usage_stroke_color">#ff6b6b6b</color>
+    <color name="data_usage_fill_color">@*android:color/white</color>
+    <color name="data_usage_secondary_fill_color">@*android:color/accent_material_light</color>
+    <color name="data_usage_label_color">#ff343434</color>
+    <color name="data_usage_secondary_label_color">#ff343434</color>
+    <color name="warning">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+    <color name="storage_summary_text_color">@*android:color/accent_material_light</color>
+    <color name="storage_summary_used_text_color">@*android:color/white</color>
 
-    <color name="memory_used">#F00</color>
-    <color name="memory_avail">#E0E0E0</color>
+    <color name="floating_action_button_touch_tint">@*android:color/primary_dark_material_dark</color>
+    <color name="screencolor_background">#4d000000</color>
+    <drawable name="transparent_background">@*android:color/transparent</drawable>
+    <color name="expanded_button_color_normal">@*android:color/primary_material_dark</color>
+    <color name="expanded_button_color_close">@*android:color/primary_material_dark</color>
+    <color name="qs_tile_tint_color">@android:color/white</color>
+    <color name="background_color_accent_material_dark">@*android:color/primary_material_dark</color>
+    <color name="background_color_transparent">@*android:color/transparent</color>
+    <color name="background_color_white">@*android:color/white</color>
+    <color name="text_color_accent_material_dark">@*android:color/accent_material_light</color>
+    <color name="text_color_secondary_text_material_light">@*android:color/secondary_text_material_light</color>
+    <color name="text_color_translucent_white">#4dffffff</color>
+    <color name="text_color_white">@*android:color/white</color>
+    <color name="lockscreen_shortcuts_text_color">@*android:color/white</color>
+    <color name="lockscreen_shortcuts_tint_color">@*android:color/white</color>
+    <color name="ownerinfo_divider_color">#00ffffff</color>
+    <color name="security_settings_billing_desc_color">@*android:color/accent_material_light</color>
 
-    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
-    <color name="crypt_keeper_clock_foreground">#ff666666</color>
-    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
-    <color name="crypt_keeper_password_background">#70606060</color>
 
-    <color name="divider_color">#20ffffff</color>
-    <color name="setup_divider_color_dark">#33ffffff</color>
-    <color name="setup_lock_pattern_view_regular_color_dark">#ffbdbdbd</color>
-    <color name="setup_lock_pattern_view_success_color_dark">#ff84ffff</color>
-    <color name="setup_lock_pattern_view_error_color_dark">#fff44336</color>
+    <color name="storage_volume_color_private1">@*android:color/accent_material_light</color>
+    <color name="storage_summary_title_color">@*android:color/accent_material_light</color>
 
-    <color name="system_warning_color">#D32F2F</color><!-- deep orange 600 -->
 
-    <color name="lock_pattern_background">#00000000</color>
 
-    <color name="lock_pattern_view_regular_color_dark">#ffffff</color>
+    <color name="wifi_divider">@*android:color/transparent</color>
+    <color name="material_grey_300">@*android:color/background_dark</color>
 
-    <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
-    <color name="fingerprint_title_color">#ffffffff</color>
-    <color name="fingerprint_message_color">#de000000</color>
-    <color name="fingerprint_progress_ring">?android:attr/colorAccent</color>
-    <color name="fingerprint_progress_ring_bg">#20000000</color>
-    <color name="fingerprint_indicator_background_resting">#12000000</color>
+    <!--backgrounds-->
+    <color name="card_background">@*android:color/background_dark</color>
+    <color name="card_background_grey">@*android:color/background_dark</color>
+    <color name="dashboard_category_background_color">@*android:color/background_dark</color>
+    <color name="dashboard_background_color">@*android:color/background_dark</color>
+    <color name="background_color_gray">@*android:color/background_dark</color>
 
-    <color name="running_processes_free_ram">#ffced7db</color>
+    <!-- Gestures settings -->
+    <color name="gestures_setting_background_color">@*android:color/background_dark</color>
+    <color name="gestures_switchbar_color">@*android:color/background_dark</color>
+    <color name="usage_graph_dots">@*android:color/accent_material_light</color>
+    <color name="expanded_item_app_name">@*android:color/white</color>
 
-    <color name="wifi_divider">#ffe0e0e0</color>
+    <!--display-->
+    <color name="message_text_incoming">#ffffffff</color>
+    <color name="message_text_outgoing">#ffffffff</color>
+    <color name="timestamp_text_outgoing">#4dffffff</color>
+    <color name="timestamp_text_incoming">#4dffffff</color>
+    <color name="message_bubble_incoming">#616161</color>
+    <color name="message_bubble_outgoing">@*android:color/accent_material_light</color>
+    <color name="message_icon_background_incoming">#616161</color>
+    <color name="message_icon_text_incoming">#ffffffff</color>
+    <color name="message_icon_background_outgoing">@*android:color/accent_material_light</color>
+    <color name="message_icon_text_outgoing">#ffffffff</color>
+    <color name="conversation_background">@*android:color/background_dark</color>
 
-    <color name="warning">#D32F2F</color>
-    <color name="confirm_device_credential_dark_background">@android:color/background_dark</color>
-    <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
-    <color name="fab_shape">?android:attr/colorAccent</color>
-    <color name="voice_interaction_highlight">#33b5e5</color>
+	<color name="external_icon_tint">@*com.android.settings:color/icon_accent</color>
 
-    <drawable name="fp_enrollment_header_landscape">#009688</drawable>
+    <color name="icon_accent">@*android:color/accent_material_light</color>
 
-    <color name="memory_normal">#ff009587</color>
-    <color name="memory_moderate">#ffF3B300</color>
-    <color name="memory_low">#ffff9700</color>
-    <color name="memory_critical">#ffff5621</color>
+    <color name="suw_color_accent_light">@*android:color/primary_material_dark</color>
+    <color name="suw_color_accent_glif_light">@*android:color/primary_material_dark</color>
+    <color name="external_tile_icon_tint_color">@*com.android.settings:color/icon_accent</color>
 
-    <color name="memory_avg_use">#ff384248</color>
-    <color name="memory_max_use">#ff009587</color>
-    <color name="memory_remaining">#ffced7db</color>
+    <color name="condition_card_background_color">@*android:color/primary_material_dark</color>
+    <color name="condition_card_icon_color">@*com.android.settings:color/icon_accent</color>
+    <color name="condition_card_title_text_color">#fff</color>
+    <color name="condition_card_expander_color">#fff</color>
+    <color name="condition_card_summary_text_color">#fff</color>
+    <color name="condition_card_divider_color">#00000000</color>
+    <color name="condition_card_first_button_text_color">#fff</color>
+    <color name="condition_card_second_button_text_color">#fff</color>
 
-    <!-- Accent color that matches the settings launcher icon -->
-    <color name="icon_accent">@android:color/holo_blue_bright</color>
-
-    <!-- layers_colors.xml -->
-
-    <color name="storage_summary_title_color">@android:color/holo_blue_bright</color>
-    <color name="action_picker_fab_background">@android:color/holo_purple</color>
-    <color name="text_color_black">@android:color/white</color>
+    <!--Search Panel BG-->
+    <color name="bluetooth_dialog_text_color">#8affffff</color>   <!--OG:#8a000000-->
+    <color name="cardview_shadow_end_color">#00000000</color>   <!--OG:#03000000-->
+    <color name="cardview_shadow_start_color">#00000000</color>   <!--OG:37000000-->
+    <color name="condition_card_background">@*android:color/primary_material_dark</color>   <!--OG:#fff8f8f8-->
+    <color name="suggestion_condition_background">@*android:color/primary_material_dark</color>   <!--OG:#fff2f2f2-->
 </resources>

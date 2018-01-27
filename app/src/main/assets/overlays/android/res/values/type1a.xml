@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="holo_blue_light">#FE6F5E</color>
-    <color name="holo_blue_dark">#FE6F5E</color>
-    <color name="holo_blue_bright">#FE6F5E</color>
+    <color name="accent_material_dark">#FE6F5E</color>
+    <color name="accent_material_light">#FE6F5E</color>
 </resources>

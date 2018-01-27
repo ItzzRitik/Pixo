@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="title" type="id">false</item>
+    <item type="id" name="dashboard_tile">false</item>
 </resources>
