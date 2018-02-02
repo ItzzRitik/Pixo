@@ -1,4 +1,5 @@
 <resources>
+    <color name="background_dark">#1E1E1E</color>
+    <color name="primary_dark_material_dark">#2c2c2c</color>
     <color name="primary_material_dark">#2c2c2c</color>
-    <color name="primary_dark_material_dark">#212121</color>
 </resources>

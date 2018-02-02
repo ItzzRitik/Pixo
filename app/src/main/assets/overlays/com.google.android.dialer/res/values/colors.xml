@@ -60,8 +60,8 @@
     <color name="material_blue_grey_950">@*android:color/background_dark</color>
     <color name="cardview_light_background">@*android:color/background_dark</color>
     <color name="cardview_dark_background">@*android:color/background_dark</color>
-    <color name="dialer_theme_color">@*android:color/accent_material_light</color>
-    <color name="dialer_theme_color_dark">@*android:color/accent_material_dark</color>
+    <color name="dialer_theme_color">@*android:color/primary_material_dark</color>
+    <color name="dialer_theme_color_dark">@*android:color/primary_material_dark</color>
     <color name="background_dialpad">@*android:color/background_dark</color>
     <color name="background_dialpad_pressed">#ff555555</color>
     <color name="dialpad_secondary_text_color">#ffdddddd</color>

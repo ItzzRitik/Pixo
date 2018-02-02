@@ -1,0 +1,5 @@
+<resources>
+    <color name="background_dark">#000000</color>
+    <color name="primary_dark_material_dark">#1E1E1E</color>
+    <color name="primary_material_dark">#1E1E1E</color>
+</resources>
